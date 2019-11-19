@@ -10,8 +10,8 @@ Telegram notification scripts!
 setup(
     name='TGNotify',
     version='1.0',
-    description=description.
-    packages=find_packages()+['src'],
+    description=description,
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'tgnotify = src.TelegramNotify:main',
