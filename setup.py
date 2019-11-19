@@ -2,11 +2,20 @@
 
 from setuptools import setup, find_packages
 
+description = """
+Telegram notification scripts!
+- tgnotify
+- tgnetnotify
+"""
 setup(
-    name='tgnotify',
+    name='TGNotify',
     version='1.0',
+    description=description.
     packages=find_packages()+['src'],
-    scripts=[
-    'src/TelegramNotify.py'
-    ]
+    entry_points={
+        'console_scripts': [
+            'tgnotify = src.TelegramNotify:main',
+            'tgnetnotify = src.TelegramNetworkNotify:main'
+        ]
+    }
 )

@@ -3,9 +3,9 @@
 import sys
 import subprocess
 import random
-import TelegramBotAPI as TG
-from Constants import BOLD, ITALIC
-from Constants import UTF8
+from . import TelegramBotAPI as TG
+from .Constants import BOLD, ITALIC
+from .Constants import UTF8
 
 subtitles = ['Go back to work, you lazy piece of crap!',
             'Terminate rapidito el pucho y a seguir...',
@@ -37,5 +37,8 @@ def run_command():
     print(f'\n{output.decode(UTF8)}')
     send_message(command, output)
 
-if __name__ == '__main__':
+def main():
     run_command()
+
+if __name__ == '__main__':
+    main()

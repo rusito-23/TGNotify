@@ -2,11 +2,12 @@
 
 import sys
 import subprocess
-import TelegramBotAPI as TG
 from subprocess import PIPE
 from contextlib import suppress
-from Constants import BOLD, ITALIC
-from Constants import DEFAULT_HOST
+
+from . import TelegramBotAPI as TG
+from .Constants import BOLD, ITALIC
+from .Constants import DEFAULT_HOST
 
 def notify():
     title = BOLD.format('Internet is back up!')
@@ -29,5 +30,8 @@ def ping():
 
     notify()
 
-if __name__ == '__main__':
+def main():
     ping()
+
+if __name__ == '__main__':
+    main()

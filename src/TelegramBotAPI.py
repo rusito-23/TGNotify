@@ -2,8 +2,8 @@
 
 import requests
 import os
-from Colors import *
-from Constants import ASCII
+from .Colors import *
+from .Constants import ASCII
 
 # PATHS
 
