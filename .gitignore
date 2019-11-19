@@ -1,0 +1,8 @@
+
+
+# Compiled
+src/*.pyc
+src/__pycache__/
+
+# Information
+RNotiBotDescription
