@@ -1,3 +1,5 @@
-twilio==6.26.0
-yagmail==0.11.215
-requests
+certifi==2019.9.11
+chardet==3.0.4
+idna==2.8
+requests==2.22.0
+urllib3==1.25.7
