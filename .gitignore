@@ -4,5 +4,10 @@
 src/*.pyc
 src/__pycache__/
 
+# Setup.py generated
+build
+dist
+*.egg-info
+
 # Information
 RNotiBotDescription
