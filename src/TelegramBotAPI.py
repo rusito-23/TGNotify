@@ -1,4 +1,5 @@
-#! /usr/bin/python3
+#!/usr/bin/env python
+
 import requests
 import os
 from Colors import *

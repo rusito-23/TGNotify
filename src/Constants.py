@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 
 # STYLES
 BOLD='<b>{}</b>'
