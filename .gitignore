@@ -4,7 +4,8 @@
 src/*.pyc
 src/__pycache__/
 
-# Setup.py generated
+# Makefile generated
+files.txt
 build
 dist
 *.egg-info
